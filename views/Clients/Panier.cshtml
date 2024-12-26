@@ -1,0 +1,32 @@
+@model IEnumerable<CSHARP.Models.Produit>
+
+<h2>Votre Panier</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Libellé</th>
+            <th>Quantité</th>
+            <th>Prix Unitaire</th>
+            <th>Total</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var produit in Model)
+        {
+            <tr>
+                <td>@produit.Libelle</td>
+                <td>@produit.QuantiteStock</td>
+                <td>@produit.PrixUnitaire</td>
+                <td>@(produit.PrixUnitaire * produit.QuantiteStock)</td>
+                <td>
+                    <a href="@Url.Action("SupprimerDuPanier", new { id = produit.Id })" class="btn btn-danger">Supprimer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>
+    <a href="@Url.Action("PasserCommande")" class="btn btn-success">Passer la Commande</a>
+</p>
+

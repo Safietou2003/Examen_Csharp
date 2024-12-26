@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "NQ+UdWdk7ux7l+3xd7ULyiE+At6ZRmjgZ/EWZxwGBk4=",
+  "Source": "CSHARP",
+  "BasePath": "_content/CSHARP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CSHARP/wwwroot",
+      "Source": "CSHARP",
+      "ContentRoot": "/home/seph/Csharp_project/Csharp/wwwroot/",
+      "BasePath": "_content/CSHARP",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/seph/Csharp_project/Csharp/wwwroot/scripts.js",
+      "SourceId": "CSHARP",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/seph/Csharp_project/Csharp/wwwroot/",
+      "BasePath": "_content/CSHARP",
+      "RelativePath": "scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/scripts.js"
+    },
+    {
+      "Identity": "/home/seph/Csharp_project/Csharp/wwwroot/styles.css",
+      "SourceId": "CSHARP",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/seph/Csharp_project/Csharp/wwwroot/",
+      "BasePath": "_content/CSHARP",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/styles.css"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+@model IEnumerable<CSHARP.Models.Facture>
+
+<h2>Gérer les Factures</h2>
+<p>
+    <a href="@Url.Action("Create", "Factures")" class="btn btn-primary">Créer une Nouvelle Facture</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Montant</th>
+            <th>Commande</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var facture in Model)
+        {
+            <tr>
+                <td>@facture.Date.ToString("yyyy-MM-dd")</td>
+                <td>@facture.Montant</td>
+                <td>@facture.CommandeId</td>
+                <td>
+                    <a href="@Url.Action("Edit", "Factures", new { id = facture.Id })" class="btn btn-warning">Modifier</a>
+                    <a href="@Url.Action("Delete", "Factures", new { id = facture.Id })" class="btn btn-danger">Supprimer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

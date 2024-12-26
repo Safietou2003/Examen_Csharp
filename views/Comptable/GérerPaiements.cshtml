@@ -1,0 +1,32 @@
+@model IEnumerable<CSHARP.Models.Paiement>
+
+<h2>Gérer les Paiements</h2>
+<p>
+    <a href="@Url.Action("Create", "Paiements")" class="btn btn-primary">Ajouter un Nouveau Paiement</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Type</th>
+            <th>Montant</th>
+            <th>Référence</th>
+            <th>Date</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var paiement in Model)
+        {
+            <tr>
+                <td>@paiement.Type</td>
+                <td>@paiement.Montant</td>
+                <td>@paiement.Reference</td>
+                <td>@paiement.Date.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <a href="@Url.Action("Edit", "Paiements", new { id = paiement.Id })" class="btn btn-warning">Modifier</a>
+                    <a href="@Url.Action("Delete", "Paiements", new { id = paiement.Id })" class="btn btn-danger">Supprimer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

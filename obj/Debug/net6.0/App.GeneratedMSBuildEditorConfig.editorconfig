@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = App
+build_property.RootNamespace = App
+build_property.ProjectDir = /home/seph/Csharp_project/Csharp/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/seph/Csharp_project/Csharp
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/seph/Csharp_project/Csharp/views/Clients/DetailsCommande.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvQ2xpZW50cy9EZXRhaWxzQ29tbWFuZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/Clients/EnregistrerPaiement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvQ2xpZW50cy9FbnJlZ2lzdHJlclBhaWVtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/Clients/HistoriqueCommandes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvQ2xpZW50cy9IaXN0b3JpcXVlQ29tbWFuZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/Clients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvQ2xpZW50cy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/Clients/Inscription.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvQ2xpZW50cy9JbnNjcmlwdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/Clients/Panier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvQ2xpZW50cy9QYW5pZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/Comptable/GérerFactures.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvQ29tcHRhYmxlL0fDqXJlckZhY3R1cmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/Comptable/GérerPaiements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvQ29tcHRhYmxlL0fDqXJlclBhaWVtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/Comptable/RapportsFinanciers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvQ29tcHRhYmxlL1JhcHBvcnRzRmluYW5jaWVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/Comptable/Statistiques.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvQ29tcHRhYmxlL1N0YXRpc3RpcXVlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/RS/CommandesALivrerOuPayees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvUlMvQ29tbWFuZGVzQUxpdnJlck91UGF5ZWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/RS/CommandesReapprovisionnement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvUlMvQ29tbWFuZGVzUmVhcHByb3Zpc2lvbm5lbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/RS/GérerProduits.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvUlMvR8OpcmVyUHJvZHVpdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/RS/HistoriqueVersements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvUlMvSGlzdG9yaXF1ZVZlcnNlbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/RS/PréparationCommandes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvUlMvUHLDqXBhcmF0aW9uQ29tbWFuZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/seph/Csharp_project/Csharp/views/RS/SuiviStocks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3MvUlMvU3VpdmlTdG9ja3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

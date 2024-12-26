@@ -1,0 +1,8 @@
+/home/seph/Csharp_project/Csharp/obj/Debug/net6.0/App.csproj.AssemblyReference.cache
+/home/seph/Csharp_project/Csharp/obj/Debug/net6.0/App.GeneratedMSBuildEditorConfig.editorconfig
+/home/seph/Csharp_project/Csharp/obj/Debug/net6.0/App.AssemblyInfoInputs.cache
+/home/seph/Csharp_project/Csharp/obj/Debug/net6.0/App.AssemblyInfo.cs
+/home/seph/Csharp_project/Csharp/obj/Debug/net6.0/App.csproj.CoreCompileInputs.cache
+/home/seph/Csharp_project/Csharp/obj/Debug/net6.0/App.MvcApplicationPartsAssemblyInfo.cache
+/home/seph/Csharp_project/Csharp/obj/Debug/net6.0/App.RazorAssemblyInfo.cache
+/home/seph/Csharp_project/Csharp/obj/Debug/net6.0/App.RazorAssemblyInfo.cs

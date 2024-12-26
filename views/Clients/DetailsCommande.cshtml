@@ -1,0 +1,39 @@
+@model CSHARP.Models.Client
+
+@{
+    ViewData["Title"] = "Mes Informations";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>Client</h4>
+<hr />
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Prenom)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Prenom)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Telephone)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Telephone)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Adresse)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Adresse)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Solde)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Solde)
+    </dd>
+</dl>
+<div>
+    <a asp-action="Edit" class="btn btn-warning">Modifier mes informations</a>
+</div>
